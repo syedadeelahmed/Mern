@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+ box-sizing: border-box; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    background-color:#B85042;
+    padding: 20px;
+}
+#heading{
+    width: 100%;
+    height: max-content;
+    background-color: #E7E8D1;
+position: relative;
+} 
+h1{
+    text-align: center;
+    padding: 10px;
+    color:#B85042;
+}  
+button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #E7E8D1;
+    color:#B85042;
+
+}
+button:hover{
+    background-color: #A7BEAE;
+}
+.topic{
+width: 100%;
+height: 200px;
+margin-top: 10px;
+justify-content: center;
+display: flex;
+justify-content: space-around;
+position: relative;
+flex-wrap: wrap;
+
+
+
+}
+
+.card1{
+    width: 15%;
+    height: 100%;
+    background-color:#A7BEAE;
+    position: relative;
+    
+}
+.card2{
+    width: 15%;
+    height: 100%;
+    background-color:#A7BEAE;
+    position: relative;
+    
+}
+.card3{
+    width: 15%;
+    height: 100%;
+    background-color:#A7BEAE;
+    position: relative;
+      
+}
+.card4{
+    width: 15%;
+    height: 100%;
+    background-color: #A7BEAE;
+    position: relative;
+    
+}
+.title{
+    background-color: #B85042;
+    color: white;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 10px;
+}
